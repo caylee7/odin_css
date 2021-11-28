@@ -7,6 +7,11 @@
     text-decoration: none;
     color: #E5E7EB;
   }
+.body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 
   .left-links {
     justify-content: flex-start;
@@ -28,13 +33,139 @@
     font-size: 18px;
     color: #E5E7EB;
   }
-  
-  .content {
+
+  .mid_overall {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background: #1F2937;
+  }  
+
+  .mid_left {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 5px;
+    width: 500px;
+    padding: 16px;
     justify-content: center;
-    margin-bottom: 200px;
+    align-content: center;
+  }
+
+  .right_img {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    padding: 64px;
+    justify-content: center;
+    align-content: center;
+    margin-left: 64px;
+  }
+
+  .top {
+  display: flex;
+  width:500px;
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: bolder;
+  }
+
+ .middle {
+   display:flex;
+   font-size: 18px;
+   color: #E5E7EB;
+ }
+
+  .low {
+    display: flex;
+    border-radius: 8px;
+    color: #F9FAF8;
+    background: #3882F6;
+    width: 100px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 70px;
+  }
+
+  .title {
+    margin-bottom: 32px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 64px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+  }
   
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+  }
+  
+  .info {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:64px;
+  }
+  .clipart {
+    max-width: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .bottom_quote {
+    display: flex;
+    flex-direction: column;
+    background: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+
+  .quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    width: 800px;
+    margin-top: 64px;
+  }
+  .signature {
+    font-size: 24px;
+    color: #1F2937;
+    width: 700px;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 64px;
+  }
+  .last_section {
+    border-radius: 12px;
+    display:flex;
+    padding: 64px;
+    background: #3882F6;
+    width: 1200px;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .padding {
+    display: flex;
+    background: white;
+    padding: 64px;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 64px;
   }
