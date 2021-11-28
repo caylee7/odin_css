@@ -159,6 +159,7 @@
     width: 1200px;
     justify-content: center;
     align-content: center;
+    gap: 24px;
   }
 
   .padding {
@@ -168,4 +169,35 @@
     align-content: center;
     justify-content: center;
     margin-bottom: 64px;
+  }
+  .action {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .bottom_signup {
+    color: white;
+  }
+  .signupbutton {
+    display: flex;
+    color: white;
+    border: white;
+    background: #3882F6;
+    border-style: solid;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+
+  .footer {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1F2937;
+    color: #F9FAF8;
   }
